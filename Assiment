@@ -1,0 +1,193 @@
+#include <iostream>
+
+using namespace std;
+
+class student{
+    public:
+    int code;
+    string name;
+    int dateOfBirth;
+    int age;
+    string phoneNum;
+    string adress;
+    string email;
+    student(int a, string b,int c,int d,string e,string f,string g) {
+        code = a;
+        name = b;
+        dateOfBirth = c;
+        age = d;
+        phoneNum = e;
+        adress = f;
+        email = g;
+
+    }
+};
+
+int main(){
+
+
+
+        // this is first data entry
+ student s1(7220,"zaheer",02-10-2000, 20,"03085745875", "kasur", "zaheer@gmail.com");
+
+
+cout<<"Your first entry data:"<<endl;
+    cout<<"your id: "<<s1.code<<endl<<"your name: "<<s1.name<<endl<<"your birthday: "<<s1.dateOfBirth<<endl<<"your age: "<<s1.age<<endl<<"your phone no: "<<s1.phoneNum<<endl<<"your adress: "<<s1.adress<<endl<<"your email: "<<s1.email<<endl;
+    
+    
+
+        // this is 2nd data entry
+ student s2(7221,"tayyab",02-12-2001, 19,"030746463151", "kasur", "tayab@gmail.com");
+
+cout<<endl;
+cout<<"Your 2nd entry data:"<<endl;
+    cout<<"your id: "<<s2.code<<endl<<"your name: "<<s2.name<<endl<<"your birthday: "<<s2.dateOfBirth<<endl<<"your age: "<<s2.age<<endl<<"your phone no: "<<s2.phoneNum<<endl<<"your adress: "<<s2.adress<<endl<<"your email: "<<s2.email<<endl;
+    
+
+        // this is 3rd data entry
+ student s3(7222,"uzair",01-10-1999, 21,"03088563430", "kasur", "uzair@gmail.com");
+
+cout<<endl;
+cout<<"Your 3rd entry data:"<<endl;
+    cout<<"your id: "<<s3.code<<endl<<"your name: "<<s3.name<<endl<<"your birthday: "<<s3.dateOfBirth<<endl<<"your age: "<<s3.age<<endl<<"your phone no: "<<s3.phoneNum<<endl<<"your adress: "<<s3.adress<<endl<<"your email: "<<s3.email<<endl;
+    
+
+        // this is 4th data entry
+ student s4(7223,"mohsan",17-8-1999, 21,"03029517405", "kasur", "mohsan@gmail.com");
+
+cout<<endl;
+cout<<"Your 4th entry data:"<<endl;
+    cout<<"your id: "<<s4.code<<endl<<"your name: "<<s4.name<<endl<<"your birthday: "<<s4.dateOfBirth<<endl<<"your age: "<<s4.age<<endl<<"your phone no: "<<s4.phoneNum<<endl<<"your adress: "<<s4.adress<<endl<<"your email: "<<s4.email<<endl;
+    
+
+        // this is 5th data entry
+ student s5(7224,"junaid",24-8-1999, 21,"03174919633", "kasur", "junaid@gmail.com");
+
+cout<<endl;
+cout<<"Your 5th entry data:"<<endl;
+    cout<<"your id: "<<s5.code<<endl<<"your name: "<<s5.name<<endl<<"your birthday: "<<s5.dateOfBirth<<endl<<"your age: "<<s5.age<<endl<<"your phone no: "<<s5.phoneNum<<endl<<"your adress: "<<s5.adress<<endl<<"your email: "<<s5.email<<endl;
+    
+
+        // this is 6th data entry
+ student s6(7225,"zahid",23-10-1999, 21,"03004050673", "kasur", "zahid@gmail.com");
+
+cout<<endl;
+cout<<"Your 6th entry data:"<<endl;
+    cout<<"your id: "<<s6.code<<endl<<"your name: "<<s6.name<<endl<<"your birthday: "<<s6.dateOfBirth<<endl<<"your age: "<<s6.age<<endl<<"your phone no: "<<s6.phoneNum<<endl<<"your adress: "<<s6.adress<<endl<<"your email: "<<s6.email<<endl;
+    
+
+        // this is 7th data entry
+ student s7(7226,"zulafqar",02-11-1999, 21,"03074292428", "kasur", "zulafqar@gmail.com");
+
+cout<<endl;
+cout<<"Your 7th entry data:"<<endl;
+    cout<<"your id: "<<s7.code<<endl<<"your name: "<<s7.name<<endl<<"your birthday: "<<s7.dateOfBirth<<endl<<"your age: "<<s7.age<<endl<<"your phone no: "<<s7.phoneNum<<endl<<"your adress: "<<s7.adress<<endl<<"your email: "<<s7.email<<endl;
+    
+
+        // this is 8th data entry
+ student s8(7227,"shahzab",11-05-1999, 21,"03054669173", "kasur", "shahzab@gmail.com");
+
+cout<<endl;
+cout<<"Your 8th entry data:"<<endl;
+    cout<<"your id: "<<s8.code<<endl<<"your name: "<<s8.name<<endl<<"your birthday: "<<s8.dateOfBirth<<endl<<"your age: "<<s8.age<<endl<<"your phone no: "<<s8.phoneNum<<endl<<"your adress: "<<s8.adress<<endl<<"your email: "<<s8.email<<endl;
+    
+
+        // this is 9th data entry
+ student s9(7228,"usama",01-06-2000, 20,"03034060303", "kasur", "usama@gmail.com");
+
+cout<<endl;
+cout<<"Your 9th entry data:"<<endl;
+    cout<<"your id: "<<s9.code<<endl<<"your name: "<<s9.name<<endl<<"your birthday: "<<s9.dateOfBirth<<endl<<"your age: "<<s9.age<<endl<<"your phone no: "<<s9.phoneNum<<endl<<"your adress: "<<s9.adress<<endl<<"your email: "<<s9.email<<endl;
+    
+
+        // this is 10th data entry
+ student s10(7229,"mateen",9-12-2000, 20,"03218806550", "kasur", "mateen@gmail.com");
+
+cout<<endl;
+cout<<"Your 10th entry data:"<<endl;
+    cout<<"your id: "<<s10.code<<endl<<"your name: "<<s10.name<<endl<<"your birthday: "<<s10.dateOfBirth<<endl<<"your age: "<<s10.age<<endl<<"your phone no: "<<s10.phoneNum<<endl<<"your adress: "<<s10.adress<<endl<<"your email: "<<s10.email<<endl;
+    
+
+        // this is 11th data entry
+ student s11(7230,"husnan",02-02-2001, 19,"03022550112", "lahore", "husnan@gmail.com");
+
+cout<<endl;
+cout<<"Your 11th entry data:"<<endl;
+    cout<<"your id: "<<s11.code<<endl<<"your name: "<<s11.name<<endl<<"your birthday: "<<s11.dateOfBirth<<endl<<"your age: "<<s11.age<<endl<<"your phone no: "<<s11.phoneNum<<endl<<"your adress: "<<s11.adress<<endl<<"your email: "<<s11.email<<endl;
+    
+
+        // this is 12th data entry
+ student s12(7231,"umair",10-02-2000, 20,"03101415661", "islamabad", "umair@gmail.com");
+
+cout<<endl;
+cout<<"Your 12th entry data:"<<endl;
+    cout<<"your id: "<<s12.code<<endl<<"your name: "<<s12.name<<endl<<"your birthday: "<<s12.dateOfBirth<<endl<<"your age: "<<s12.age<<endl<<"your phone no: "<<s12.phoneNum<<endl<<"your adress: "<<s12.adress<<endl<<"your email: "<<s12.email<<endl;
+    
+
+        // this is 13th data entry
+ student s13(7232,"kamran",29-11-1997, 23,"03074327746", "kasur", "kamran@gmail.com");
+
+cout<<endl;
+cout<<"Your 13th entry data:"<<endl;
+    cout<<"your id: "<<s13.code<<endl<<"your name: "<<s13.name<<endl<<"your birthday: "<<s13.dateOfBirth<<endl<<"your age: "<<s13.age<<endl<<"your phone no: "<<s13.phoneNum<<endl<<"your adress: "<<s13.adress<<endl<<"your email: "<<s13.email<<endl;
+    
+
+        // this is 14th data entry
+ student s14(7233,"ahmad",18-11-2002, 17,"030201617671", "lahore", "ahmad@gmail.com");
+
+cout<<endl;
+cout<<"Your 14th entry data:"<<endl;
+    cout<<"your id: "<<s14.code<<endl<<"your name: "<<s14.name<<endl<<"your birthday: "<<s14.dateOfBirth<<endl<<"your age: "<<s14.age<<endl<<"your phone no: "<<s14.phoneNum<<endl<<"your adress: "<<s14.adress<<endl<<"your email: "<<s14.email<<endl;
+    
+
+        // this is 15th data entry
+ student s15(7234,"ali",15-06-2000, 20,"03071175448", "lahore", "ali@gmail.com");
+
+cout<<endl;
+cout<<"Your 15th entry data:"<<endl;
+    cout<<"your id: "<<s15.code<<endl<<"your name: "<<s15.name<<endl<<"your birthday: "<<s15.dateOfBirth<<endl<<"your age: "<<s15.age<<endl<<"your phone no: "<<s15.phoneNum<<endl<<"your adress: "<<s15.adress<<endl<<"your email: "<<s15.email<<endl;
+    
+
+        // this is 16th data entry
+ student s16(7235,"usman",05-07-1999, 21,"03321417786", "kasur", "usman@gmail.com");
+
+cout<<endl;
+cout<<"Your 16th entry data:"<<endl;
+    cout<<"your id: "<<s16.code<<endl<<"your name: "<<s16.name<<endl<<"your birthday: "<<s16.dateOfBirth<<endl<<"your age: "<<s16.age<<endl<<"your phone no: "<<s16.phoneNum<<endl<<"your adress: "<<s1.adress<<endl<<"your email: "<<s16.email<<endl;
+    
+
+        // this is 17th data entry
+ student s17(7236,"abdullah",17-2-2000, 20,"03027242117", "hadra-bad", "abdullah@gmail.com");
+
+cout<<endl;
+cout<<"Your 17th entry data:"<<endl;
+    cout<<"your id: "<<s17.code<<endl<<"your name: "<<s17.name<<endl<<"your birthday: "<<s17.dateOfBirth<<endl<<"your age: "<<s17.age<<endl<<"your phone no: "<<s17.phoneNum<<endl<<"your adress: "<<s17.adress<<endl<<"your email: "<<s17.email<<endl;
+    
+
+        // this is 18th data entry
+ student s18(7237,"faisal",12-5-1999, 21,"0303206065", "lahore", "faisal@gmail.com");
+
+cout<<endl;
+cout<<"Your 18th entry data:"<<endl;
+    cout<<"your id: "<<s18.code<<endl<<"your name: "<<s18.name<<endl<<"your birthday: "<<s18.dateOfBirth<<endl<<"your age: "<<s18.age<<endl<<"your phone no: "<<s18.phoneNum<<endl<<"your adress: "<<s18.adress<<endl<<"your email: "<<s18.email<<endl;
+    
+
+        // this is 19th data entry
+ student s19(7238,"arslan",19-10-1999, 21,"03074243421", "lahore", "arslan@gmail.com");
+
+cout<<endl;
+cout<<"Your 19th entry data:"<<endl;
+    cout<<"your id: "<<s19.code<<endl<<"your name: "<<s19.name<<endl<<"your birthday: "<<s19.dateOfBirth<<endl<<"your age: "<<s19.age<<endl<<"your phone no: "<<s19.phoneNum<<endl<<"your adress: "<<s19.adress<<endl<<"your email: "<<s19.email<<endl;
+    
+
+        // this is 20th data entry
+ student s20(7239,"asif",25-9-1999, 21,"03051415541", "faslabad", "asif@gmail.com");
+
+cout<<endl;
+cout<<"Your 20th entry data:"<<endl;
+    cout<<"your id: "<<s20.code<<endl<<"your name: "<<s20.name<<endl<<"your birthday: "<<s20.dateOfBirth<<endl<<"your age: "<<s20.age<<endl<<"your phone no: "<<s20.phoneNum<<endl<<"your adress: "<<s20.adress<<endl<<"your email: "<<s20.email<<endl;
+    
+
+    
+return 0;
+}
